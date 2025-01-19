@@ -40,4 +40,4 @@ class Queue:<br>
         self.front = self.front.next<br>
         if self.front is None:<br>
             self.rear = None>br>
-        return data<br>
+        return data
