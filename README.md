@@ -5,39 +5,39 @@ Aurthor- Muhammad usama
 <br>
 SECTION: 3 EVENING A
 <br>
-class Node:
-    def __init__(self, data):
-        self.data = data
-        self.next = None
-class Stack:
-    def __init__(self):
-        self.top = None
-    def push(self, data):
-        node = Node(data)
-        node.next = self.top
-        self.top = node
-    def pop(self):
-        if self.top is None:
-            return None
-        data = self.top.data
-        self.top = self.top.next
-        return data
-class Queue:
-    def __init__(self):
-        self.front = None
-        self.rear = None
-    def enqueue(self, data):
-        node = Node(data)
-        if self.rear is None:
-            self.front = self.rear = node
-        else:
-            self.rear.next = node
-            self.rear = node
-    def dequeue(self):
-        if self.front is None:
-            return None
-        data = self.front.data
-        self.front = self.front.next
-        if self.front is None:
-            self.rear = None
-        return data
+class Node:<br>
+    def __init__(self, data):<br>
+        self.data = data<br>
+        self.next = None<br>
+class Stack:<br>
+    def __init__(self):<br>
+        self.top = None<br>
+    def push(self, data):<br>
+        node = Node(data)<br>
+        node.next = self.top<br>
+        self.top = node<br>
+    def pop(self):<br>
+        if self.top is None:<br>
+            return None<br>
+        data = self.top.data<br>
+        self.top = self.top.next<br>
+        return data<br>
+class Queue:<br>
+    def __init__(self):<BR>
+        self.front = None<Br>
+        self.rear = None<br>
+    def enqueue(self, data):<br>
+        node = Node(data)<br>
+        if self.rear is None:<br>
+            self.front = self.rear = node<br>
+        else:<br>
+            self.rear.next = node<Br>
+            self.rear = node<BR>
+    def dequeue(self):<br>
+        if self.front is None:<br>
+            return None<br>
+        data = self.front.data<br>
+        self.front = self.front.next<br>
+        if self.front is None:<br>
+            self.rear = None>br>
+        return data<br>
