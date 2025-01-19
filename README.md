@@ -1,7 +1,10 @@
 # stack-and-queue-in-linked-list
 My first github repository
 <br>
-Aurthor- muhammad usama
+Aurthor- Muhammad usama
+<br>
+SECTION: 3 EVENING A
+<br>
 class Node:
     def __init__(self, data):
         self.data = data
